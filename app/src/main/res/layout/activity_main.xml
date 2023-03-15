@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:text="Hệ thống quản lý sinh viên"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnOpenClass"
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:text="Quản lý lớp học"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnOpenStudent"
+        android:layout_alignTop="@+id/btnOpenClass"
+        android:layout_toRightOf="@+id/btnOpenClass"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Quản lý sinh viên"
+        android:layout_marginLeft="35dp"
+        android:layout_width="150dip"
+        android:layout_height="150dip" />
+
+    <Button
+        android:id="@+id/btnExitApp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnOpenClass"
+        android:layout_marginTop="100dp"
+        android:background="#c82e31"
+        android:text="Thoát"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
